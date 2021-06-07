@@ -6,4 +6,4 @@ import './index.css'
 
  const $divRoot = document.getElementById("root");
 
-ReactDOM.render(<FirstApp />, $divRoot);
+ReactDOM.render(<FirstApp gretings="Buenas dias" persona='Alfonso' />, $divRoot);
