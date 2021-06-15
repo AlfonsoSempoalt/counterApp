@@ -1,0 +1,13 @@
+import { retornaArreglo } from "../../base/07-deses-arr"
+
+describe('test of retornaArreglo works well', () => {
+    test('must return an array with a string and a number', () => {
+        const [letras,numeros]= retornaArreglo();
+        expect(letras).toBe('ABC');
+        expect(typeof letras).toBe('string');
+
+        expect(numeros).toBe(123);
+        expect(typeof numeros).toBe('number');
+        //expect(arr).toEqual(['ABC', 123]);
+    });
+})
