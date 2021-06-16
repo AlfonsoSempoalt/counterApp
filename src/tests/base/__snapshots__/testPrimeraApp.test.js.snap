@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test to PrimeraApp <PrimeraApp/ > should renderize properly 1`] = `
+<Fragment>
+  <h1>
+    hoola buenas noches
+     c:
+  </h1>
+  <h2>
+    Buenas noches
+  </h2>
+</Fragment>
+`;
+
+exports[`test to PrimeraApp <PrimeraApp/ > test props 1`] = `
+<Fragment>
+  <h1>
+    hoola buenas noches
+     c:
+  </h1>
+  <h2>
+    soy un subtitulo
+  </h2>
+</Fragment>
+`;
